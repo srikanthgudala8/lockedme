@@ -39,6 +39,10 @@ public class LockedMeClass {
 			while(proceed>0);
 	}
 	
+	/**
+	 * This method displays Main Menu to the user.
+	 */
+	
 	public static int displayMenu() {
 		Scanner obj= new Scanner(System.in);
 		int ch;
@@ -105,7 +109,7 @@ public class LockedMeClass {
 		}
 		
 		//Save the content into the file
-		boolean isSaved=FileManager.writeContentToFiles(folderpath, fileName, content);
+		boolean isSaved=FileManager.createFile(folderpath, fileName, content);
 		
 		if(isSaved)
 			System.out.println("File and Data are saved successfully");
