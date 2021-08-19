@@ -39,7 +39,7 @@ public class FileManager
 	 * @return boolean
 	 */
 	
-	public static boolean createFile(String folderpath,String fileName,List<String> content) {
+	public static boolean createNewFile(String folderpath,String fileName,List<String> content) {
 	
 		try {
 			File file1=new File(folderpath,fileName);

@@ -23,7 +23,7 @@ public class LockedMeClass {
 				switch(ch) {
 				case 1: getAllFiles();
 						break;
-				case 2: writeContentToFiles();
+				case 2: createNewFile();
 						break;
 				case 3:deleteFile();
 						break;
@@ -85,7 +85,7 @@ public class LockedMeClass {
 	 * This method will create new files.
 	 */
 	
-	public static void writeContentToFiles()
+	public static void createNewFile()
 	{
 		//Declaring the variable
 		Scanner obj= new Scanner(System.in);
