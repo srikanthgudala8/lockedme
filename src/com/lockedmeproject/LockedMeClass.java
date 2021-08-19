@@ -93,15 +93,15 @@ public class LockedMeClass {
 		int linesCount;
 		List<String> content = new ArrayList<String>();
 		
-		//Read file names from user
+		//Read file name from the user
 		System.out.println("Enter file Name:");
 		fileName=obj.nextLine();
 		
-		//Read number of line from user
+		//Read number of lines from the user
 		System.out.println("Enter how many lines in the file:");
 		linesCount=Integer.parseInt(obj.nextLine());
 		
-		//Read lines from user
+		//Read data from the user
 		for(int i=1;i<=linesCount;i++)
 		{
 			System.out.println("Enter line"+i+":");
@@ -109,7 +109,7 @@ public class LockedMeClass {
 		}
 		
 		//Save the content into the file
-		boolean isSaved=FileManager.createFile(folderpath, fileName, content);
+		boolean isSaved=FileManager.createNewFile(folderpath, fileName, content);
 		
 		if(isSaved)
 			System.out.println("File and Data are saved successfully");
@@ -118,7 +118,7 @@ public class LockedMeClass {
 	}
 	
 	/**
-	 * This method will delete the files from the folder.
+	 * This method will delete the existing  files from the folder.
 	 */
 	public static void deleteFile() {
 		
