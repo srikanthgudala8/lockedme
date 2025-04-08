@@ -41,6 +41,7 @@ public class LockedMeClass {
 	
 	/**
 	 * This method displays Main Menu to the user.
+	 * menu menu
 	 */
 	
 	public static int displayMenu() {
@@ -48,7 +49,7 @@ public class LockedMeClass {
 		int ch;
 		System.out.println();
 		System.out.println(" ******************************************************************");
-		System.out.println("\t\t\t Lockedme.com");
+		System.out.println("\t\t\t\t Lockedme.com");
 		System.out.println(" ******************************************************************");
 		System.out.println(" 1. Display all files");
 		System.out.println(" 2. Create a new file");

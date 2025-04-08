@@ -83,7 +83,7 @@ public class FileManager
 	
 	
 	/**
-	 * This method will search the file from the folder
+	 * This method will search the file from the folders
 	 * @param folderpath
 	 * @param fileName
 	 * @return boolean
