@@ -1,3 +1,4 @@
+
 package com.lockedmeproject;
 
 import java.util.ArrayList;
@@ -14,7 +15,7 @@ public class LockedMeClass {
 		
 		do {
 				//Variable declaration
-				int ch;
+				int ch;  //int val
 				
 				//Display Menu
 				ch=displayMenu();
